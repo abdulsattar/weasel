@@ -7,7 +7,10 @@ defmodule Weasel.Mixfile do
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     deps: deps(),
+     package: package(),
+     description: description(),
+   ]
   end
 
   # Configuration for the OTP application
@@ -28,5 +31,19 @@ defmodule Weasel.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     []
+  end
+
+  defp package do
+    [
+      licenses: ["MIT"],
+      maintainers: ["Abdulsattar Mohammed"],
+      links: %{"Github" => "https://github.com/abdulsattar/weasel"}
+    ]
+  end
+
+  defp description do
+    """
+    Heroku like Fake name generator.
+    """
   end
 end
