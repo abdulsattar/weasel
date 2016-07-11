@@ -15,13 +15,13 @@ P.S: If you can find out why it's named Weasel, just send me an email :)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Weasel can be installed as:
 
   1. Add `weasel` to your list of dependencies in `mix.exs`:
 
     ```elixir
     def deps do
-      [{:weasel, "~> 0.1.0"}]
+      [{:weasel, "~> 0.1.1"}]
     end
     ```
 
