@@ -1,7 +1,7 @@
 defmodule Weasel do
 
   def fake do
-    "#{Enum.random(adjectives)}-#{Enum.random(nouns)}-#{:random.uniform(1000)}"
+    "#{Enum.random(adjectives)}-#{Enum.random(nouns)}-#{:rand.uniform(1000)}"
   end
 
   defp adjectives do
