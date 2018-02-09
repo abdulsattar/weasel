@@ -19,17 +19,17 @@ Weasel can be installed as:
 
   1. Add `weasel` to your list of dependencies in `mix.exs`:
 
-    ```elixir
-    def deps do
-      [{:weasel, "~> 0.1.1"}]
-    end
-    ```
+```elixir
+def deps do
+  [{:weasel, "~> 0.1.1"}]
+end
+```
 
   2. Ensure `weasel` is started before your application:
 
-    ```elixir
-    def application do
-      [applications: [:weasel]]
-    end
-    ```
+```elixir
+def application do
+  [applications: [:weasel]]
+end
+```
 
